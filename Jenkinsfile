@@ -1,7 +1,7 @@
 pipeline{
 	
 	agent{
-			docker{
+		docker{
 			image 'maven'
 			args '-v /root/apps/nexus--maven-samples:/root/.m2'
 			}
